@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import-normalize; /* bring in normalize.css styles */
 
 body {
@@ -7,6 +11,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #eee; /* Текст: світло-сірий */
+  background-color: #0d47a1; /* Фон: глибокий синій */
 }
 
 code {
