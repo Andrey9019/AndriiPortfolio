@@ -15,7 +15,7 @@ export const AboutSkills = () => {
       <p className="text-center text-lg font-semibold mb-2 uppercase">
         skills & tools
       </p>
-      <ul className="grid grid-cols-3 gap-4">
+      <ul className="grid grid-cols-3 gap-4 sm:grid-cols-4 lg:grid-cols-5">
         <SkillItem icon={<FaHtml5 />} text="Html" color="red" />
         <SkillItem icon={<FaCss3Alt />} text="Css" color="blue" />
         <SkillItem
@@ -42,7 +42,7 @@ const SkillItem = ({ icon, text, color }) => {
   return (
     <li className="flex flex-col items-center">
       {React.cloneElement(icon, { size: 70, color: color })}
-      <span className="mt-2">{text}</span>
+      <span className="mt-2 text-lg sm:text-xl lg:text-2xl">{text}</span>
     </li>
   );
 };

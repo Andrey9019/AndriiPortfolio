@@ -2,7 +2,7 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Andrey9019.github.io/AndriiPortfolio/",
+  "homepage": "https://andrey9019.github.io/AndriiPortfolio/",
   "dependencies": {
     "@headlessui/react": "^1.7.18",
     "@heroicons/react": "^2.1.3",

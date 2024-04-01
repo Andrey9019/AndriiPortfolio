@@ -1,15 +1,15 @@
+// import { Header } from './Header';
 import { About } from './About';
+import { Projects } from './Projects';
 // import { Contacts } from './Contacts';
 // import { Footer } from './Footer';
-// import { Header } from './Header';
-// import { Hero } from './Hero';
 
 export const HomePage = () => {
   return (
     <main>
       {/* <Header /> */}
       <About />
-      {/* <Hero /> */}
+      <Projects />
       {/* <Contacts /> */}
       {/* <Footer /> */}
     </main>
