@@ -21,10 +21,7 @@ export const About = () => {
             been marked by successful projects. These experiences have equipped
             me for the exhilarating path of a front-end developer.
           </p>
-          <a
-            href="/"
-            className="block self-start text-center bg-blue-500 py-2 px-4 rounded-md mx-auto mb-4 hover:bg-blue-600 focus:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300 w-32 lg:w-48 transition-all duration-300 transform hover:scale-105"
-          >
+          <a href="/" className="button">
             View Resume
           </a>
         </div>
