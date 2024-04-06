@@ -17,7 +17,7 @@ export const ProjectCard = ({ projectContent }) => {
           {projectContent.heading}
         </h3>
         <p className="text-base  mb-4">{projectContent.description}</p>
-        <div>
+        <div className="mb-28">
           {projectContent.links.map((link, index) => (
             <a
               key={index}

@@ -6,7 +6,7 @@ import ImageSearch from '../img/searchImages.jpg';
 import CatsSearch from '../img/searchCats.jpg';
 import weatherWidget from '../img/weather.jpg';
 import taskPro from '../img/taskPro.jpg';
-
+import tastyTreats from '../img/tastyTreats.jpg';
 export const Projects = () => {
   const allProjects = [
     {
@@ -21,6 +21,17 @@ export const Projects = () => {
       ],
     },
     {
+      image: taskPro,
+      heading: 'Task Pro',
+      skills: 'TypeScript - React - Tailwind ',
+      description: `This was a team project where I was a front-end developer and performed the following tasks on the backend.  Welcome to Task Pro, the final project of the Fullstack Development Bootcamp. This web app allows users to manage tasks efficiently, similar to popular task management tools like Trello.
+      `,
+      links: [
+        'https://final-project-frontend-theta.vercel.app/dashboard',
+        'https://github.com/chertik77/final-project-frontend',
+      ],
+    },
+    {
       image: ImageSearch,
       heading: 'Search Images',
       skills: 'React - Axios - react-modal - react-hot-toast',
@@ -29,6 +40,17 @@ export const Projects = () => {
       links: [
         'https://andrey9019.github.io/goit-react-hw-04-images/',
         'https://github.com/Andrey9019/goit-react-hw-04-images',
+      ],
+    },
+    {
+      image: tastyTreats,
+      heading: 'Tasty Treats',
+      skills: 'JavaScript  - Vite - Axios ',
+      description: `"TastyTreats" is a project developed in a team collaboration, where my role was a front-end developer. The project's goal is to provide customers with the ability to find dishes by searching or filtering, as well as watch video cooking instructions and add dishes to their favourites. "TastyTreats is a handy tool for those who want to find ideas for dishes and see how to cook them, all with ease and convenience.
+ `,
+      links: [
+        'https://valeriia-trytiak.github.io/project_01_Taste_Masters_Team/',
+        'https://github.com/Valeriia-Trytiak/project_01_Taste_Masters_Team',
       ],
     },
     {
@@ -49,24 +71,14 @@ export const Projects = () => {
       description: 'A small widget about the weather in my home place.',
       links: ['https://andrey9019.github.io/weather-widget/'],
     },
-    {
-      image: taskPro,
-      heading: 'Task Pro',
-      skills: 'TypeScript - React - Tailwind ',
-      description: 'A small widget about the weather in my home place.',
-      links: [
-        'https://andrey9019.github.io/weather-widget/',
-        'https://andrey9019.github.io/weather-widget/',
-      ],
-    },
   ];
 
   return (
     <section className="container p-4">
-      <h2 className="text-3xl font-bold mb-8 uppercase  text-center">
+      <h2 className="text-lg font-bold mb-4 uppercase  text-center">
         Projects
       </h2>
-      <p className="text-lg  mb-4  text-center">Curious What I've Done?</p>
+      <p className=" text-3xl mb-16  text-center">Curious What I've Done?</p>
       <ul>
         {allProjects.map((project, index) => (
           <li key={index}>

@@ -1,7 +1,7 @@
 // import { Header } from './Header';
 import { About } from './About';
 import { Projects } from './Projects';
-// import { Contacts } from './Contacts';
+import { Contacts } from './Contacts';
 // import { Footer } from './Footer';
 
 export const HomePage = () => {
@@ -10,7 +10,7 @@ export const HomePage = () => {
       {/* <Header /> */}
       <About />
       <Projects />
-      {/* <Contacts /> */}
+      <Contacts />
       {/* <Footer /> */}
     </main>
   );
