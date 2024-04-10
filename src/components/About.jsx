@@ -11,7 +11,7 @@ export const About = () => {
         />
         <div className="block text-center lg:text-left">
           <h2 className="text-lg font-semibold mb-2 uppercase">About me</h2>
-          <h3 className="text-2xl text-700 text-[#f4d000] font-bold mb-4">
+          <h3 className="text-2xl text-700 text-[#5851db] font-bold mb-4">
             Hey, I'm Andrey
           </h3>
           <p className="text-sm sm:text-base lg:text-lg mb-4">

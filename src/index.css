@@ -11,12 +11,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #eee; /* Текст: світло-сірий */
-  background-color: #0d47a1; /* Фон: глибокий синій */
+  color: #eee;
+  background-color: #020d19;
 }
 .container {
   max-width: 1200px;
-  margin: 0 auto 10rem auto; /* це центрує контейнер на сторінці */
+  margin: 0 auto 10rem auto;
 }
 
 /* стилі кнопки */
@@ -24,33 +24,43 @@ body {
   display: block;
   align-self: start;
   text-align: center;
-  background-color: #3b82f6; /* Синій колір */
-  padding: 0.5rem 1rem; /* Внутрішні відступи */
-  border-radius: 0.375rem; /* Закруглені кути */
-  margin-bottom: 1rem; /* Зовнішній відступ знизу */
+  background-color: #5851db;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  margin-bottom: 1rem;
   transition: all 0.3s ease; /* Анімація зміни властивостей */
 }
 .button:hover,
 .button:focus {
-  background-color: #2563eb; /* Змінений колір при наведенні та фокусі */
+  background-color: #06d6a0;
   transform: scale(1.05); /* Збільшення розміру при наведенні */
 }
 .button:focus {
-  outline: none; /* Зникнення обводки при фокусі */
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5); /* Обводка при фокусі */
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
 }
 @media (min-width: 768px) {
   .button {
-    width: 4rem; /* Ширина на великих екранах */
+    width: 4rem;
   }
 }
 @media (min-width: 1440px) {
   .button {
-    width: 6rem; /* Ширина на екранах з великою роздільною здатністю */
+    width: 6rem;
   }
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Задаємо маржин для всіх лішок, крім останньої */
+li:not(:last-child) {
+  margin-bottom: 48px;
+}
+
+/* Задаємо 0 маржин для останньої лішки */
+li:last-child {
+  margin-bottom: 0;
 }

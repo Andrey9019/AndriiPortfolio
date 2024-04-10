@@ -10,26 +10,24 @@ export const ProjectCard = ({ projectContent }) => {
         />
       </div>
       <div>
-        <p className="uppercase font-bold  tracking-wider text-lg text-black mb-4">
+        <p className="uppercase font-bold  tracking-wider text-lg  mb-4">
           {projectContent.skills}
         </p>
-        <h3 className="text-red-500 text-2xl font-bold mb-4">
+        <h3 className="text-500 text-[#5851db] text-2xl font-bold mb-4">
           {projectContent.heading}
         </h3>
         <p className="text-base  mb-4">{projectContent.description}</p>
-        <div className="mb-28">
-          {projectContent.links.map((link, index) => (
-            <a
-              key={index}
-              href={link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="button"
-            >
-              {index === 0 ? 'Live Site' : 'GitHub Repo'}
-            </a>
-          ))}
-        </div>
+        {projectContent.links.map((link, index) => (
+          <a
+            key={index}
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button"
+          >
+            {index === 0 ? 'Live Site' : 'GitHub Repo'}
+          </a>
+        ))}
       </div>
     </div>
   );
