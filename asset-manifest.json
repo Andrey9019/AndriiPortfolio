@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AndriiPortfolio/static/css/main.540ffe52.css",
-    "main.js": "/AndriiPortfolio/static/js/main.e1189201.js",
+    "main.css": "/AndriiPortfolio/static/css/main.db5888f2.css",
+    "main.js": "/AndriiPortfolio/static/js/main.408ec740.js",
     "static/media/trendingMovie.jpg": "/AndriiPortfolio/static/media/trendingMovie.7aaefaa4c9e7f510141a.jpg",
     "static/media/searchImages.jpg": "/AndriiPortfolio/static/media/searchImages.a4b1567f168424d0ee9c.jpg",
     "static/media/tastyTreats.jpg": "/AndriiPortfolio/static/media/tastyTreats.90d2cd9031d74b90d553.jpg",
@@ -10,11 +10,11 @@
     "static/media/face.jpg": "/AndriiPortfolio/static/media/face.97d6af56d9edf49a838e.jpg",
     "static/media/weather.jpg": "/AndriiPortfolio/static/media/weather.b3ac90d1d547b2469fd5.jpg",
     "index.html": "/AndriiPortfolio/index.html",
-    "main.540ffe52.css.map": "/AndriiPortfolio/static/css/main.540ffe52.css.map",
-    "main.e1189201.js.map": "/AndriiPortfolio/static/js/main.e1189201.js.map"
+    "main.db5888f2.css.map": "/AndriiPortfolio/static/css/main.db5888f2.css.map",
+    "main.408ec740.js.map": "/AndriiPortfolio/static/js/main.408ec740.js.map"
   },
   "entrypoints": [
-    "static/css/main.540ffe52.css",
-    "static/js/main.e1189201.js"
+    "static/css/main.db5888f2.css",
+    "static/js/main.408ec740.js"
   ]
 }
