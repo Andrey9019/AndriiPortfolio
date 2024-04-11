@@ -74,7 +74,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section className=" container p-4 ">
+    <section className=" container ">
       <h2 className="text-lg font-bold mb-4 uppercase  text-center">
         Projects
       </h2>

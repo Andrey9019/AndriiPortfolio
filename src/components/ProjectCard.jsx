@@ -18,15 +18,17 @@ export const ProjectCard = ({ projectContent }) => {
         </h3>
         <p className="text-base  mb-4">{projectContent.description}</p>
         {projectContent.links.map((link, index) => (
-          <a
-            key={index}
-            href={link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="button"
-          >
-            {index === 0 ? 'Live Site' : 'GitHub Repo'}
-          </a>
+          <div className="inline-block  px-4">
+            <a
+              key={index}
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button "
+            >
+              {index === 0 ? 'Live Site' : 'GitHub Repo'}
+            </a>
+          </div>
         ))}
       </div>
     </div>

@@ -1,3 +1,3 @@
 export const Header = () => {
-    return <div>it`s Header container</div>
-}
+  return <header className="">it`s Header container</header>;
+};
