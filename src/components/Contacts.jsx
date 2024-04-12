@@ -2,7 +2,10 @@ import { FaEnvelope, FaLinkedin, FaTelegram, FaGithub } from 'react-icons/fa';
 
 export const Contacts = () => {
   return (
-    <section className="footer mx-auto flex flex-col items-center justify-center">
+    <section
+      id="contact"
+      className="footer mx-auto flex flex-col items-center justify-center"
+    >
       <h2 className="text-3xl  mb-4">Contact Me</h2>
       <p className=" text-center mb-8">by email or social media</p>
       <div className="flex text-4xl  ">

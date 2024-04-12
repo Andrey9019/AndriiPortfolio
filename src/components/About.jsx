@@ -2,7 +2,7 @@ import { AboutSkills } from './AboutSkills';
 import face from '../img/face.jpg';
 export const About = () => {
   return (
-    <section className="container ">
+    <section id="about" className="container ">
       <div className="flex flex-col items-center mb-4 lg:flex-row lg:items-start lg:justify-center">
         <img
           src={face}
