@@ -13,10 +13,10 @@ export const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 w-full bg-[#0f1e38] text-white py-4 px-8 z-10">
-      <ul className="flex h-6 justify-between flex-no-wrap flex-row items-start">
+      <ul className="flex h-6 justify-evenly flex-no-wrap flex-row items-start">
         <li>
           <button
-            className="text-white hover:text-[#06d6a0] focus:text-[#06d6a0] transition duration-300 hover:underline focus:underline"
+            className="header-link"
             onClick={() => scrollToSection('about')}
           >
             About
@@ -24,7 +24,7 @@ export const Header = () => {
         </li>
         <li>
           <button
-            className="text-white hover:text-[#06d6a0] focus:text-[#06d6a0] transition duration-300 hover:underline focus:underline"
+            className="header-link"
             onClick={() => scrollToSection('projects')}
           >
             Projects
@@ -32,7 +32,7 @@ export const Header = () => {
         </li>
         <li>
           <button
-            className="text-white hover:text-[#06d6a0] focus:text-[#06d6a0] transition duration-300 hover:underline focus:underline"
+            className="header-link"
             onClick={() => scrollToSection('contact')}
           >
             Contact
