@@ -3,7 +3,7 @@ import face from '../img/face.jpg';
 export const About = () => {
   return (
     <section id="about" className="container ">
-      <div className="flex flex-col items-center mb-4 lg:flex-row lg:items-start lg:justify-center">
+      <div className="flex flex-col items-center mb-4 mt-16 lg:flex-row lg:items-start lg:justify-center">
         <img
           src={face}
           alt="my face"
@@ -21,8 +21,21 @@ export const About = () => {
             been marked by successful projects. These experiences have equipped
             me for the exhilarating path of a front-end developer.
           </p>
-          <a href="/" className="button">
+          <a
+            href="https://drive.google.com/file/d/1ONE2ZJNtkV8SLCepO07LXRO07Wpy55oe/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button"
+          >
             View Resume
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1R_2b_nAOdj6Rnyx7mfENnX2CNef14I8N/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button "
+          >
+            Сertificate of training
           </a>
         </div>
       </div>
