@@ -12,7 +12,7 @@ import { TbBrandVscode } from 'react-icons/tb';
 export const AboutSkills = () => {
   return (
     <>
-      <p className="text-center text-lg font-semibold mb-2 uppercase">
+      <p className="text-center text-lg font-semibold mb-2 uppercase sm:mb-8">
         skills & tools
       </p>
       <ul className="grid grid-cols-3 gap-4 sm:grid-cols-4 lg:grid-cols-5">

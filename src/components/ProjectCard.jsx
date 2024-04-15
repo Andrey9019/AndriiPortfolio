@@ -10,13 +10,15 @@ export const ProjectCard = ({ projectContent }) => {
         />
       </div>
       <div>
-        <p className="uppercase font-bold  tracking-wider text-lg  mb-4">
+        <p className="uppercase font-bold  tracking-wider text-lg  mb-4 sm:text-3xl">
           {projectContent.skills}
         </p>
-        <h3 className="text-500 text-[#5851db] text-2xl font-bold mb-4">
+        <h3 className="text-500 text-[#5851db] text-2xl font-bold mb-4 sm:text-4xl">
           {projectContent.heading}
         </h3>
-        <p className="text-base  mb-4">{projectContent.description}</p>
+        <p className="text-base sm:text-2xl mb-4 ">
+          {projectContent.description}
+        </p>
         {projectContent.links.map((link, index) => (
           <div className="inline-block  px-4">
             <a

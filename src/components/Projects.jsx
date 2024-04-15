@@ -78,7 +78,9 @@ export const Projects = () => {
       <h2 className="text-lg font-bold mb-4 uppercase  text-center">
         Projects
       </h2>
-      <p className=" text-3xl mb-16  text-center">Curious What I've Done?</p>
+      <p className=" text-3xl mb-16 sm:text-5xl text-center">
+        Curious What I've Done?
+      </p>
       <ul>
         {allProjects.map((project, index) => (
           <li key={index}>
