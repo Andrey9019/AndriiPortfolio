@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AndriiPortfolio/static/css/main.58a86718.css",
-    "main.js": "/AndriiPortfolio/static/js/main.2b3ce098.js",
+    "main.css": "/AndriiPortfolio/static/css/main.7f5cb6d4.css",
+    "main.js": "/AndriiPortfolio/static/js/main.b018c083.js",
     "static/media/trendingMovie.jpg": "/AndriiPortfolio/static/media/trendingMovie.7aaefaa4c9e7f510141a.jpg",
     "static/media/searchImages.jpg": "/AndriiPortfolio/static/media/searchImages.a4b1567f168424d0ee9c.jpg",
     "static/media/tastyTreats.jpg": "/AndriiPortfolio/static/media/tastyTreats.90d2cd9031d74b90d553.jpg",
@@ -10,11 +10,11 @@
     "static/media/face.jpg": "/AndriiPortfolio/static/media/face.97d6af56d9edf49a838e.jpg",
     "static/media/weather.jpg": "/AndriiPortfolio/static/media/weather.b3ac90d1d547b2469fd5.jpg",
     "index.html": "/AndriiPortfolio/index.html",
-    "main.58a86718.css.map": "/AndriiPortfolio/static/css/main.58a86718.css.map",
-    "main.2b3ce098.js.map": "/AndriiPortfolio/static/js/main.2b3ce098.js.map"
+    "main.7f5cb6d4.css.map": "/AndriiPortfolio/static/css/main.7f5cb6d4.css.map",
+    "main.b018c083.js.map": "/AndriiPortfolio/static/js/main.b018c083.js.map"
   },
   "entrypoints": [
-    "static/css/main.58a86718.css",
-    "static/js/main.2b3ce098.js"
+    "static/css/main.7f5cb6d4.css",
+    "static/js/main.b018c083.js"
   ]
 }
