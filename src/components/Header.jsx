@@ -16,7 +16,7 @@ export const Header = () => {
       <ul className="flex h-6 justify-evenly flex-no-wrap flex-row items-start">
         <li>
           <button
-            className="header-link"
+            className="header-link lg:text-xl "
             onClick={() => scrollToSection('about')}
           >
             About
@@ -24,7 +24,7 @@ export const Header = () => {
         </li>
         <li>
           <button
-            className="header-link"
+            className="header-link lg:text-xl "
             onClick={() => scrollToSection('projects')}
           >
             Projects
@@ -32,7 +32,7 @@ export const Header = () => {
         </li>
         <li>
           <button
-            className="header-link"
+            className="header-link lg:text-xl "
             onClick={() => scrollToSection('contact')}
           >
             Contact
