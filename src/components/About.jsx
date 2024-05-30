@@ -1,18 +1,18 @@
 import { AboutSkills } from './AboutSkills';
-import face from '../img/face.jpg';
+import face from '../img/face.png';
 export const About = () => {
   return (
-    <section id="about" className="container ">
-      <div className="flex flex-col items-center mb-4 mt-16 lg:flex-row lg:items-start lg:justify-center">
-        <div class="w-48 h-48 rounded-full sm:w-72 sm:h-72 lg:w-96 lg:h-96 mb-8">
+    <section id="about" className="container container  ">
+      <div className="flex flex-col items-center mb-4 mt-16 lg:mt-36 lg:flex-row lg:items-start lg:justify-center ">
+        <div class="w-48 h-48 rounded-full sm:w-72 sm:h-72  lg:w-5/6 lg:h-96 mb-8 ">
           <img
             src={face}
             alt="my face"
-            className="w-full h-full object-cover rounded-full"
+            className="w-full h-full object-cover rounded-full lg:h-auto "
           />
         </div>
 
-        <div className="block text-center lg:text-left">
+        <div className="block text-center ">
           <h2 className="text-lg font-semibold mb-2 uppercase">About me</h2>
           <h3 className="text-2xl text-700 text-[#5851db] font-bold mb-4 sm:text-3xl">
             Hey, I'm Andrey
@@ -50,6 +50,7 @@ export const About = () => {
           </div>
         </div>
       </div>
+
       <AboutSkills />
     </section>
   );

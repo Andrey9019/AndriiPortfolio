@@ -1,12 +1,12 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 
-import MovieSearch from '../img/trendingMovie.jpg';
-import ImageSearch from '../img/searchImages.jpg';
-import CatsSearch from '../img/searchCats.jpg';
-import weatherWidget from '../img/weather.jpg';
-import taskPro from '../img/taskPro.jpg';
-import tastyTreats from '../img/tastyTreats.jpg';
+import MovieSearch from '../img/trendingMovie.png';
+import ImageSearch from '../img/searchImages.png';
+import CatsSearch from '../img/searchCats.png';
+import weatherWidget from '../img/weather.png';
+import taskPro from '../img/taskPro.png';
+import tastyTreats from '../img/tastyTreats.png';
 export const Projects = () => {
   const allProjects = [
     {
