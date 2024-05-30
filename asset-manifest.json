@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/AndriiPortfolio/static/css/main.7f5cb6d4.css",
-    "main.js": "/AndriiPortfolio/static/js/main.b018c083.js",
-    "static/media/trendingMovie.jpg": "/AndriiPortfolio/static/media/trendingMovie.7aaefaa4c9e7f510141a.jpg",
-    "static/media/searchImages.jpg": "/AndriiPortfolio/static/media/searchImages.a4b1567f168424d0ee9c.jpg",
-    "static/media/tastyTreats.jpg": "/AndriiPortfolio/static/media/tastyTreats.90d2cd9031d74b90d553.jpg",
-    "static/media/searchCats.jpg": "/AndriiPortfolio/static/media/searchCats.9cb186228c913eeab20a.jpg",
-    "static/media/taskPro.jpg": "/AndriiPortfolio/static/media/taskPro.65e2f1fa98dc623a1860.jpg",
-    "static/media/face.jpg": "/AndriiPortfolio/static/media/face.97d6af56d9edf49a838e.jpg",
-    "static/media/weather.jpg": "/AndriiPortfolio/static/media/weather.b3ac90d1d547b2469fd5.jpg",
+    "main.css": "/AndriiPortfolio/static/css/main.c8e4eab3.css",
+    "main.js": "/AndriiPortfolio/static/js/main.40251d10.js",
+    "static/media/trendingMovie.png": "/AndriiPortfolio/static/media/trendingMovie.7aaefaa4c9e7f510141a.png",
+    "static/media/searchImages.png": "/AndriiPortfolio/static/media/searchImages.a4b1567f168424d0ee9c.png",
+    "static/media/tastyTreats.png": "/AndriiPortfolio/static/media/tastyTreats.90d2cd9031d74b90d553.png",
+    "static/media/searchCats.png": "/AndriiPortfolio/static/media/searchCats.9cb186228c913eeab20a.png",
+    "static/media/taskPro.png": "/AndriiPortfolio/static/media/taskPro.65e2f1fa98dc623a1860.png",
+    "static/media/face.png": "/AndriiPortfolio/static/media/face.97d6af56d9edf49a838e.png",
+    "static/media/weather.png": "/AndriiPortfolio/static/media/weather.b3ac90d1d547b2469fd5.png",
     "index.html": "/AndriiPortfolio/index.html",
-    "main.7f5cb6d4.css.map": "/AndriiPortfolio/static/css/main.7f5cb6d4.css.map",
-    "main.b018c083.js.map": "/AndriiPortfolio/static/js/main.b018c083.js.map"
+    "main.c8e4eab3.css.map": "/AndriiPortfolio/static/css/main.c8e4eab3.css.map",
+    "main.40251d10.js.map": "/AndriiPortfolio/static/js/main.40251d10.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f5cb6d4.css",
-    "static/js/main.b018c083.js"
+    "static/css/main.c8e4eab3.css",
+    "static/js/main.40251d10.js"
   ]
 }
