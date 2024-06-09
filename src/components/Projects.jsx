@@ -3,8 +3,8 @@ import ProjectCard from './ProjectCard';
 
 import MovieSearch from '../img/trendingMovie.png';
 import ImageSearch from '../img/searchImages.png';
-import CatsSearch from '../img/searchCats.png';
-import weatherWidget from '../img/weather.png';
+// import CatsSearch from '../img/searchCats.png';
+// import weatherWidget from '../img/weather.png';
 import taskPro from '../img/taskPro.png';
 import tastyTreats from '../img/tastyTreats.png';
 export const Projects = () => {
@@ -53,24 +53,24 @@ export const Projects = () => {
         'https://github.com/Valeriia-Trytiak/project_01_Taste_Masters_Team',
       ],
     },
-    {
-      image: CatsSearch,
-      heading: 'Cat breeds',
-      skills: 'Java script - Modern Normalize - Parcel - Slim Select',
-      description:
-        'This is a website that allows you to search and learn about different cat breeds. The user can select a breed from a predefined list, and an image of the breed is displayed on the screen, along with a short description.',
-      links: [
-        'https://andrey9019.github.io/goit-js-hw-10/',
-        'https://github.com/Andrey9019/goit-js-hw-10',
-      ],
-    },
-    {
-      image: weatherWidget,
-      heading: 'weather widget',
-      skills: 'Java script - css',
-      description: 'A small widget about the weather in my home place.',
-      links: ['https://andrey9019.github.io/weather-widget/'],
-    },
+    // {
+    //   image: CatsSearch,
+    //   heading: 'Cat breeds',
+    //   skills: 'Java script - Modern Normalize - Parcel - Slim Select',
+    //   description:
+    //     'This is a website that allows you to search and learn about different cat breeds. The user can select a breed from a predefined list, and an image of the breed is displayed on the screen, along with a short description.',
+    //   links: [
+    //     'https://andrey9019.github.io/goit-js-hw-10/',
+    //     'https://github.com/Andrey9019/goit-js-hw-10',
+    //   ],
+    // },
+    // {
+    //   image: weatherWidget,
+    //   heading: 'weather widget',
+    //   skills: 'Java script - css',
+    //   description: 'A small widget about the weather in my home place.',
+    //   links: ['https://andrey9019.github.io/weather-widget/'],
+    // },
   ];
 
   return (
