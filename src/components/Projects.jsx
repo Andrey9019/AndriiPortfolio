@@ -27,7 +27,7 @@ export const Projects = () => {
       description: `This was a team project where I was a front-end developer and performed the following tasks on the backend.  Welcome to Task Pro, the final project of the Fullstack Development Bootcamp. This web app allows users to manage tasks efficiently, similar to popular task management tools like Trello.
       `,
       links: [
-        'taskpro.uk',
+        'https://taskpro.uk/',
         'https://github.com/chertik77/final-project-frontend',
       ],
     },
