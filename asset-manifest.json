@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AndriiPortfolio/static/css/main.cb161f30.css",
-    "main.js": "/AndriiPortfolio/static/js/main.5e761982.js",
+    "main.js": "/AndriiPortfolio/static/js/main.099ce908.js",
     "static/media/trendingMovie.png": "/AndriiPortfolio/static/media/trendingMovie.7aaefaa4c9e7f510141a.png",
     "static/media/searchImages.png": "/AndriiPortfolio/static/media/searchImages.a4b1567f168424d0ee9c.png",
     "static/media/tastyTreats.png": "/AndriiPortfolio/static/media/tastyTreats.90d2cd9031d74b90d553.png",
@@ -9,10 +9,10 @@
     "static/media/face.png": "/AndriiPortfolio/static/media/face.97d6af56d9edf49a838e.png",
     "index.html": "/AndriiPortfolio/index.html",
     "main.cb161f30.css.map": "/AndriiPortfolio/static/css/main.cb161f30.css.map",
-    "main.5e761982.js.map": "/AndriiPortfolio/static/js/main.5e761982.js.map"
+    "main.099ce908.js.map": "/AndriiPortfolio/static/js/main.099ce908.js.map"
   },
   "entrypoints": [
     "static/css/main.cb161f30.css",
-    "static/js/main.5e761982.js"
+    "static/js/main.099ce908.js"
   ]
 }
